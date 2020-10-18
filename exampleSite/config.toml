@@ -58,7 +58,7 @@ weight = 3
 logo = "images/logo.png"
 home = "Home"
 # theme layout ( two layout is available, "1" and "2" )
-layout = "1"
+layout = "2"
 # Meta data
 description = "This is meta description"
 # Preloader
