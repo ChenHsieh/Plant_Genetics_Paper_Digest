@@ -1,7 +1,7 @@
 # default config
-baseURL = "https://examplesite.org"
-languageCode = "en-us"
-title = "Parsa Hugo | Personal Blog Template"
+baseURL = "https://plantgenetic.netlify.app/"
+languageCode = "zh-TW"
+title = "植物遺傳選文淺談 | Plant Genetics Paper Digest"
 theme = "parsa-hugo"
 summaryLength = "10"
 paginate = 6
@@ -50,12 +50,12 @@ weight = 2
 
 [[menu.main]]
 name = "Contact"
-URL = "contact"
+URL = "https://www.flow.page/chenhsieh"
 weight = 3
 
 # deult parameter
 [params]
-logo = "images/logo.png"
+# logo = "images/logo.png"
 home = "Home"
 # theme layout ( two layout is available, "1" and "2" )
 layout = "1"
@@ -66,23 +66,23 @@ preloader = true
 # search
 search = true
 # about author
-author = "Themefisher"
+author = "Chen (Benjamin) Hsieh | 謝晨"
 author_image = "images/banner-img.png"
-bio = "I’m a Freelance Interactive Art Director based in France. Focusing across branding and identity, digital and print."
+bio = "🌱 PhD student of Integrated Plant Science at University of Georgia"
 # Contact info
-mobile = "+90 000 333 22"
-email = "exmaple@ymail.com"
-address = "6 rip carl Avenue CA 90733"
+# mobile = "+90 000 333 22"
+email = "Chen.Hsieh@uga.edu"
+# address = "6 rip carl Avenue CA 90733"
 # Contact Form Action
-contact_form_action = "#"
+# contact_form_action = "#"
 # Google Analitycs
 google_analitycs_id = "Your ID"
 # copyright
-copyright = "Copyright &copy; 2020 a theme by [themefisher.com](themefisher.com)"
+copyright = "Copyright &copy; 2020; Summary by [Chen Hsieh](Chen.Hsieh@uga.edu); Theme by [themefisher.com](themefisher.com)"
 
 # Instagram feed
 [params.instafeed]
-enable = true
+enable = false
 access_token = "IGQVJYeUk4YWNIY1h4OWZANeS1wRHZARdjJ5QmdueXN2RFR6NF9iYUtfcGp1NmpxZA3RTbnU1MXpDNVBHTzZAMOFlxcGlkVHBKdjhqSnUybERhNWdQSE5hVmtXT013MEhOQVJJRGJBRURn"
 
 # social site
