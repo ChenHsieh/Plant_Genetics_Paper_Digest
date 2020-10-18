@@ -4,10 +4,10 @@ paginate = 6
 summaryLength = "10"
 theme = "parsa-hugo"
 title = "植物遺傳選文淺談 | Plant Genetics Paper Digest"
-[[menu.main]]
-URL = "about"
-name = "About"
-weight = 2
+# [[menu.main]]
+# URL = "about"
+# name = "About"
+# weight = 2
 [[menu.main]]
 URL = "https://www.flow.page/chenhsieh"
 name = "Contact"
