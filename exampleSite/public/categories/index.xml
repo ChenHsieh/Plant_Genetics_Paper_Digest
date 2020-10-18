@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on 植物遺傳選文淺談 | Plant Genetics Paper Digest</title>
+    <link>https://plantgenetic.netlify.app/categories/</link>
+    <description>Recent content in Categories on 植物遺傳選文淺談 | Plant Genetics Paper Digest</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Tue, 14 May 2019 14:46:10 +0600</lastBuildDate>
+    
+	<atom:link href="https://plantgenetic.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Paper</title>
+      <link>https://plantgenetic.netlify.app/categories/paper/</link>
+      <pubDate>Tue, 14 May 2019 14:46:10 +0600</pubDate>
+      
+      <guid>https://plantgenetic.netlify.app/categories/paper/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

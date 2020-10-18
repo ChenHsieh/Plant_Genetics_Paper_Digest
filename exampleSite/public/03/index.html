@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="zh-TW"><head>
+  <meta charset="utf-8">
+  <title>植物遺傳選文淺談 | Plant Genetics Paper Digest</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Abe, A., Kosugi, S., Yoshida, K. et al. Genome sequencing reveals agronomically important loci in rice using MutMap. Nat Biotechnol 30, 174–178 (2012). https://doi.org/10.1038/nbt.2095">
+  <meta name="author" content="Chen (Benjamin) Hsieh | 謝晨">
+  <meta name="generator" content="Hugo 0.56.3" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://plantgenetic.netlify.app/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://plantgenetic.netlify.app/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://plantgenetic.netlify.app/plugins/themify-icons/themify-icons.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://plantgenetic.netlify.app/css/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://plantgenetic.netlify.app/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://plantgenetic.netlify.app/images/favicon.png " type="image/x-icon">
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  <div class="loader">
+    <span class="dot"></span>
+    <div class="dots">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+</div>
+<!-- preloader end -->
+<header class="navigation">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="https://plantgenetic.netlify.app/"><img class="img-fluid" src="https://plantgenetic.netlify.app/images/logo.png" alt="植物遺傳選文淺談 | Plant Genetics Paper Digest"></a>
+    <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navogation"
+      aria-controls="navogation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-center" id="navogation">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link text-uppercase text-dark" href="https://plantgenetic.netlify.app/"> Home </a>
+        </li>
+        
+        
+        <li class="nav-item">
+          <a class="nav-link text-uppercase text-dark" href="https://plantgenetic.netlify.app/about">About</a>
+        </li>
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link text-uppercase text-dark" href="https://www.flow.page/chenhsieh">Contact</a>
+        </li>
+        
+        
+      </ul>
+      
+      <!-- search -->
+      <form class="form-inline position-relative ml-lg-4" action="https://plantgenetic.netlify.app//search">
+        <input class="form-control px-0 w-100" type="search" placeholder="Search" id="search-query" name="s">
+        <button class="search-icon" type="submit"><i class="ti-search text-dark"></i></button>
+      </form>
+      
+    </div>
+  </nav>
+</header>
+
+
+<section class="section bg-secondary">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h4>03</h4>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <ul class="list-inline d-flex justify-content-between py-3">
+          <li class="list-inline-item"><i class="ti-user mr-2"></i>Post by Chen (Benjamin) Hsieh | 謝晨</li>
+          <li class="list-inline-item"><i class="ti-calendar mr-2"></i>May 14, 2019</li>
+        </ul>
+        <article class="content">
+          <img src="https://res.cloudinary.com/rna-sick/image/upload/v1603041934/plantgenetics/03/1_ppzibj.png" alt="post-thumb" class="img-fluid rounded float-left mr-5 mb-4">
+          
+
+<h1 id="植物遺傳選文第三篇">植物遺傳選文第三篇</h1>
+
+<p>Genome sequencing reveals agronomically important loci in rice using MutMap</p>
+
+<p>連結作物外表型態與遺傳因子是分子輔助育種的重要步驟，面對多個基因共同控制的數量型性狀，MutMap 結合了化學誘變劑和高通量定序，透過簡單的 SNP index 計算就可以在 F2 的定序結果中取得造成性狀差異的候選 SNP。</p>
+
+<h1 id="論文速讀">論文速讀</h1>
+
+<h2 id="mutmap-流程">MutMap 流程</h2>
+
+<p><img src="https://res.cloudinary.com/rna-sick/image/upload/v1603041935/plantgenetics/03/2_wtobft.png" alt="" /></p>
+
+<p>由圖一可見簡化的整體流程，以 EMS 對已經有參考基因體序列的水稻品種誘導突變，所得到的突變株族群為 M1。將 M1 自交以取得突變基因為同質結合的 M2 或更多次自交的後代族群，在同質結合的族群中篩選具有隱性遺傳的重要農藝性狀之突變株，此處的重要性狀例如株高、分蘗數、以及每穗穀粒數。篩選所得的突變株將與誘導突變所用的品種野生型雜交，得到的 F1 再自交得 F2 族群，對此族群中的具有突變性狀的植株之 DNA 定序。定序結果中大部分的 SNP 與野生型相比，應該會呈現一半一半的狀況，但如果是與性狀共分離的 SNP  則應該會呈現全數與野生型參考基因體不同，因為導致突變性狀的基因座必定是同質合子，在此作者定義了 SNP index 來量化此數值。由下方的實際範例將可以看到實際使用的情形。</p>
+
+<h2 id="以葉色淡的突變株為例使用-mutmap-篩選-snp">以葉色淡的突變株為例使用 MutMap 篩選 SNP</h2>
+
+<p>研究團隊準備了 12,000 株 EMS 誘變的水稻，估計每棵平均有 1499 個 SNP，作為概念驗證，取其中兩棵葉色較淡的突變株進行試驗。每棵與野生型雜交再自交都取得了超過兩百顆 F2 子代。</p>
+
+<p>由圖二上半部可見右側兩顆突變株的葉色較淺、SPAD value 較野生型低，圖二下半部為 SNP index 計算結果，顯示兩顆突變株分別在十號與一號染色體末端有高峰。</p>
+
+<p><img src="https://res.cloudinary.com/rna-sick/image/upload/v1603041936/plantgenetics/03/3_nfksbj.png" alt="" /></p>
+
+<p>檢視造成高峰的 SNP 位置，觀察到位於其中一個 SNP 位於 chlorophyllide a oxygenase (OsCAO1) 基因的外顯子區段內，造成 L253F 的突變 (CTT→TTT)另外還有一個 SNP 位於 zinc finger–RING/FYVE/PHD-type domain 基因的蛋白質編碼序列中並且造成 A106V 的突變 (GCA→GTA)。</p>
+
+<p><img src="https://res.cloudinary.com/rna-sick/image/upload/v1603041936/plantgenetics/03/4_kpjvre.png" alt="" /></p>
+
+<p>研究團隊針對 OsCAO1 深入研究，前人研究的 OsCAO1 T-DNA 突變株具有較低濃度的葉綠素，為了驗證他們手邊的突變株具有較淡的葉色就是因為 OsCAO1 基因的非同義取代突變，圖三中展示了將該基因導入突變株以及應用 RNAi 技術準備的 knockdown 轉殖株會直接地影響葉色性狀。</p>
+
+<h2 id="用-mutmap-找尋影響農藝性狀">用 MutMap 找尋影響農藝性狀</h2>
+
+<p>下一步研究團隊應用 MutMap 來尋找跟農藝性狀有關的基因，他們挑選了 semidwarf 和雄不稔性狀來試驗，針對不同的性狀都找到了個別的 SNP index 高峰，且至少四個 SNP 位於蛋白質編碼區段內。其中圖四 c 的第二與第五張圖中，可見多個高峰或是較寬的候選 SNP 範圍，則有可能是因為 F2 的生存率受到影響，或是突變位點接近 centromere。</p>
+
+<p><img src="https://res.cloudinary.com/rna-sick/image/upload/v1603041936/plantgenetics/03/5_ggq43n.png" alt="" /></p>
+
+<h1 id="讀後感">讀後感</h1>
+
+<p>MutMap 真是個很酷的方法，跟傳統方法並用的話應該會很有幫助，比如先用 QTL mapping 掃瞄出較粗略的範圍，再用 MutMap 於區間中找到影響的基因，但是也要注意這個方法的局限性，在於隱性的基因性狀與 SNP 而已。</p>
+
+<p>論文下載連結：<a href="https://www.nature.com/articles/nbt.2095">https://www.nature.com/articles/nbt.2095</a></p>
+
+<p>Abe, A., Kosugi, S., Yoshida, K. et al. Genome sequencing reveals agronomically important loci in rice using MutMap. Nat Biotechnol 30, 174–178 (2012). <a href="https://doi.org/10.1038/nbt.2095">https://doi.org/10.1038/nbt.2095</a></p>
+
+        </article>
+      </div>
+      <div class="col-lg-4">
+  <div class="widget search-box">
+    <form action="https://plantgenetic.netlify.app//search">
+      <i class="ti-search"></i>
+      <input class="form-control border-0 pl-5" type="search" placeholder="Search" id="search-query" name="s">
+    </form>
+  </div>
+  <div class="widget">
+    <h6 class="mb-4">LATEST POST</h6>
+    
+    <div class="media mb-4">
+      <div class="post-thumb-sm mr-3">
+        <a href="https://plantgenetic.netlify.app/01/"><img class="mr-3 post-thumb-sm" src="https://res.cloudinary.com/rna-sick/image/upload/v1603038592/plantgenetics/01/1_s6vxxq.png"></a>
+      </div>
+      <div class="media-body">
+        <ul class="list-inline d-flex justify-content-between mb-2">
+          <li class="list-inline-item">Post By Chen (Benjamin) Hsieh | 謝晨</li>
+          <li class="list-inline-item">May 14, 2019</li>
+        </ul>
+        <h6><a class="text-dark" href="https://plantgenetic.netlify.app/01/">01</a></h6>
+      </div>
+    </div>
+    
+    <div class="media mb-4">
+      <div class="post-thumb-sm mr-3">
+        <a href="https://plantgenetic.netlify.app/02/"><img class="mr-3 post-thumb-sm" src="https://res.cloudinary.com/rna-sick/image/upload/v1603038946/plantgenetics/02/1_hfqizm.png"></a>
+      </div>
+      <div class="media-body">
+        <ul class="list-inline d-flex justify-content-between mb-2">
+          <li class="list-inline-item">Post By Chen (Benjamin) Hsieh | 謝晨</li>
+          <li class="list-inline-item">May 14, 2019</li>
+        </ul>
+        <h6><a class="text-dark" href="https://plantgenetic.netlify.app/02/">02</a></h6>
+      </div>
+    </div>
+    
+    <div class="media mb-4">
+      <div class="post-thumb-sm mr-3">
+        <a href="https://plantgenetic.netlify.app/03/"><img class="mr-3 post-thumb-sm" src="https://res.cloudinary.com/rna-sick/image/upload/v1603041934/plantgenetics/03/1_ppzibj.png"></a>
+      </div>
+      <div class="media-body">
+        <ul class="list-inline d-flex justify-content-between mb-2">
+          <li class="list-inline-item">Post By Chen (Benjamin) Hsieh | 謝晨</li>
+          <li class="list-inline-item">May 14, 2019</li>
+        </ul>
+        <h6><a class="text-dark" href="https://plantgenetic.netlify.app/03/">03</a></h6>
+      </div>
+    </div>
+    
+  </div>
+  <div class="widget">
+    <h6 class="mb-4">TAG</h6>
+    <ul class="list-inline tag-list">
+      <li class="list-inline-item m-1"><a href="/tags/agriculture">Agriculture</a></li>
+      <li class="list-inline-item m-1"><a href="/tags/classic">Classic</a></li>
+      <li class="list-inline-item m-1"><a href="/tags/crossover">Crossover</a></li>
+      <li class="list-inline-item m-1"><a href="/tags/cytology">Cytology</a></li>
+      <li class="list-inline-item m-1"><a href="/tags/ems">Ems</a></li>
+      <li class="list-inline-item m-1"><a href="/tags/japan">Japan</a></li>
+      <li class="list-inline-item m-1"><a href="/tags/mutation">Mutation</a></li>
+      <li class="list-inline-item m-1"><a href="/tags/phenotype">Phenotype</a></li>
+      <li class="list-inline-item m-1"><a href="/tags/pnas">Pnas</a></li>
+      <li class="list-inline-item m-1"><a href="/tags/rice">Rice</a></li>
+      <li class="list-inline-item m-1"><a href="/tags/sequencing">Sequencing</a></li>
+      <li class="list-inline-item m-1"><a href="/tags/snp">Snp</a></li>
+      <li class="list-inline-item m-1"><a href="/tags/t-dna">T dna</a></li>
+      <li class="list-inline-item m-1"><a href="/tags/transposon">Transposon</a></li>
+    </ul>
+  </div>
+  <div class="widget">
+    <h6 class="mb-4">CATEGORIES</h6>
+    <ul class="list-inline tag-list">
+      <li class="list-inline-item m-1"><a href="/categories/paper">Paper</a></li>
+    </ul>
+  </div>
+</div>
+    </div>
+  </div>
+</section>
+
+
+<footer class="bg-secondary">
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+          <a href="https://plantgenetic.netlify.app/"><img src="https://plantgenetic.netlify.app/images/logo.png" alt="植物遺傳選文淺談 | Plant Genetics Paper Digest" class="img-fluid"></a>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+          <h6>Address</h6>
+          <ul class="list-unstyled">
+            <li class="font-secondary text-dark"></li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+          <h6>Contact Info</h6>
+          <ul class="list-unstyled">
+            <li class="font-secondary text-dark">Tel : </li>
+            <li class="font-secondary text-dark">Email : Chen.Hsieh@uga.edu</li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+          <h6>Follow</h6>
+          <ul class="list-inline d-inline-block">
+            
+            <li class="list-inline-item"><a href="https://twitter.com/ChenHsieh0" class="text-dark"><i class="ti-twitter-alt"></i></a></li>
+            
+            <li class="list-inline-item"><a href="www.linkedin.com/in/chen-hsieh/" class="text-dark"><i class="ti-linkedin"></i></a></li>
+            
+            <li class="list-inline-item"><a href="https://github.com/ChenHsieh" class="text-dark"><i class="ti-github"></i></a></li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="text-center pb-3">
+    <p class="mb-0">Copyright &copy; 2020; Summary by <a href="Chen.Hsieh@uga.edu">Chen Hsieh</a>; Theme by <a href="themefisher.com">themefisher.com</a></p>
+  </div>
+</footer>
+
+
+
+<script>
+  var indexURL = "https://plantgenetic.netlify.app/index.json"
+</script>
+
+
+<!-- JS Plugins -->
+
+<script src="https://plantgenetic.netlify.app/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://plantgenetic.netlify.app/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://plantgenetic.netlify.app/plugins/slick/slick.min.js"></script>
+
+<script src="https://plantgenetic.netlify.app/plugins/headroom/headroom.js"></script>
+
+<script src="https://plantgenetic.netlify.app/plugins/instafeed/instafeed.min.js"></script>
+
+<script src="https://plantgenetic.netlify.app/plugins/masonry/masonry.js"></script>
+
+<script src="https://plantgenetic.netlify.app/plugins/reading-time/readingTime.min.js"></script>
+
+<script src="https://plantgenetic.netlify.app/plugins/smooth-scroll/smooth-scroll.js"></script>
+
+<script src="https://plantgenetic.netlify.app/plugins/search/fuse.min.js"></script>
+
+<script src="https://plantgenetic.netlify.app/plugins/search/mark.js"></script>
+
+<script src="https://plantgenetic.netlify.app/plugins/search/search.js"></script>
+
+
+<!-- Main Script -->
+
+<script src="https://plantgenetic.netlify.app/js/script.min.js"></script>
+
+<!-- google analitycs -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'Your ID', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>
