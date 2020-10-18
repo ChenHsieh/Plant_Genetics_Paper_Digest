@@ -1,6 +1,6 @@
 # Plant Genetics Paper Digest
 
-
+紀錄 UGA PBIO 8100 [植物遺傳選文淺談](https://plantgenetic.netlify.app/)
 
 # Licensing
 
