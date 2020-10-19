@@ -62,7 +62,7 @@ link = "plugins/search/search.js"
 URL = "https://twitter.com/ChenHsieh0"
 icon = "ti-twitter-alt"
 [[params.social]]
-URL = "www.linkedin.com/in/chen-hsieh/"
+URL = "https://www.linkedin.com/in/chen-hsieh/"
 icon = "ti-linkedin"
 [[params.social]]
 URL = "https://github.com/ChenHsieh"
