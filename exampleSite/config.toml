@@ -1,7 +1,7 @@
 baseURL = "https://plantgenetic.netlify.app/"
 languageCode = "zh-TW"
 paginate = 6
-summaryLength = "10"
+summaryLength = "1"
 theme = "parsa-hugo"
 title = "植物遺傳選文淺談 | Plant Genetics Paper Digest"
 # [[menu.main]]
@@ -25,7 +25,7 @@ google_analitycs_id = "Your ID"
 home = "Home"
 layout = "1"
 logo = "images/logo.png"
-preloader = true
+preloader = false
 search = false
 [params.instafeed]
 access_token = "IGQVJYeUk4YWNIY1h4OWZANeS1wRHZARdjJ5QmdueXN2RFR6NF9iYUtfcGp1NmpxZA3RTbnU1MXpDNVBHTzZAMOFlxcGlkVHBKdjhqSnUybERhNWdQSE5hVmtXT013MEhOQVJJRGJBRURn"
